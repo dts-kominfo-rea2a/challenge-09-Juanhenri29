@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <Contact props={contacts} />
+      <Contact contacts={contacts} />
     </div>
   );
 };
