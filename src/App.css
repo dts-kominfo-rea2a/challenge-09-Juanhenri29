@@ -1,4 +1,9 @@
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 300px;
 }
