@@ -1,5 +1,13 @@
 .header {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
+  text-align: center;
+  font-size: 4em;
+  color: #2d3436;
+  margin: 20px 0 30px;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.2em;
+  color: #2d3436;
+  margin: 20px 0 30px;
 }

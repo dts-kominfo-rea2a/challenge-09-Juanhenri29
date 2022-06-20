@@ -4,9 +4,9 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="header">
-      <h1>Call a Friend</h1>
-      <p>your friendly contact app</p>
+    <div>
+      <h1 className="header">Call a Friend</h1>
+      <p className="tagline">your friendly contact app</p>
     </div>
   );
 };
