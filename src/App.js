@@ -10,7 +10,14 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <Contact contacts={contacts} />
+      <Contact
+        data1={contacts[0]}
+        data2={contacts[1]}
+        data3={contacts[2]}
+        data4={contacts[3]}
+        data5={contacts[4]}
+        data6={contacts[5]}
+      />
     </div>
   );
 };
